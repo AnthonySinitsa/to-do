@@ -5,7 +5,7 @@
 <form action="" method="POST">
   {% csrf_token %}
   {{ form.as_p }}
-  <p>Do you REALLY want to delete {{ task.title }}?</p>
+  <p>Do you REALLY want to delete {{ todo.title }}?</p>
   <input type="submit" value="OK">
 </form>
 {% endblock content %}
