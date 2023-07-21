@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     "accounts",
     "pages",
     "todo",
+    "reviews",
 ]
 
 # https://docs.djangoproject.com/en/dev/ref/settings/#middleware

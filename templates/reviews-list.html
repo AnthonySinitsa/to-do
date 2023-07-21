@@ -1,0 +1,8 @@
+{% extends '_base.html' %}
+
+{% block content %}
+<h1>Review</h1>
+{% for review in todo_list %}
+<p><a href="{% url 'review_detail' review.pk %}">{{ review.title }}</a></p>
+{% endfor %}
+{% endblock content %}
